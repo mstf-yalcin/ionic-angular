@@ -24,6 +24,7 @@ Uygulama içi ekran görüntüleri..
 
 
 
+<p float="left">
 <img src="https://user-images.githubusercontent.com/83976212/117735910-24604d80-b1ff-11eb-80f3-a9b8d2a16b7c.jpg"  width="250" />
 
 
@@ -33,6 +34,9 @@ Uygulama içi ekran görüntüleri..
 <img src="https://user-images.githubusercontent.com/83976212/117735923-2b875b80-b1ff-11eb-9db1-b152e38f3c49.jpg "  width="250" />
 
 <img src="https://user-images.githubusercontent.com/83976212/117735932-30e4a600-b1ff-11eb-81fa-8f13f99ddacb.jpg "  width="250" />
+</p>
+
+
 
 
 
