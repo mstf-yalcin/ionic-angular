@@ -38,9 +38,7 @@ Uygulama içi ekran görüntüleri.
 ![1620688628866](https://user-images.githubusercontent.com/83976212/117735954-3c37d180-b1ff-11eb-8ef2-e4b02c84e674.jpg | width=100)
 ![1620688628872](https://user-images.githubusercontent.com/83976212/117735959-3d68fe80-b1ff-11eb-9b4b-a70dc63ca7b7.jpg | width=100)
 ![1620688628852](https://user-images.githubusercontent.com/83976212/117735965-3f32c200-b1ff-11eb-85d9-b63fb0d6d78b.jpg | width=100)
-![1620688628894](https://user-images.githubusercontent.com/83976212/117735971-3fcb5880-b1ff-11eb-8888-4ca733bdb367.jpg | width=100)
-
-
+![1620688628894](https://user-images.githubusercontent.com/83976212/117735971-3fcb5880-b1ff-11eb-8888-4ca733bdb367.jpg  =250x250)
 asd
 
 
