@@ -3,9 +3,12 @@
 
 
 ionic start [dosya_ismi]
-//angular
+
+//angular -> //blank 
 
 ionic cordova platform add android
+
+Kurulacak eklentiler.
 
 npm install crypto-js --save
 npm i ion2-calendar
