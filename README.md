@@ -20,7 +20,7 @@ npm install @ionic-native/lottie-splash-screen
 
 
 
-Uygulama içi ekran görüntüleri.
+Uygulama içi ekran görüntüleri..
 
 
 
@@ -55,5 +55,5 @@ Uygulama içi ekran görüntüleri.
 <img src="https://user-images.githubusercontent.com/83976212/117735971-3fcb5880-b1ff-11eb-8888-4ca733bdb367.jpg "  width="250" />
 
 
-a
+
 
