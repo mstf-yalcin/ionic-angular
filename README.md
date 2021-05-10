@@ -1,6 +1,9 @@
 # ionic-angular
 
 
+ionic start [dosya_ismi]
+//angular
+
 ionic cordova platform add android
 
 npm install crypto-js --save
