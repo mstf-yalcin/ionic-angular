@@ -2,7 +2,7 @@
 # ionic-angular
 
 
-ionic start [dosya_ismi]
+ionic start "dosya_ismi"
 
 //angular -> //blank 
 
