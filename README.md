@@ -28,7 +28,6 @@ Uygulama içi ekran görüntüleri.
 <img src="https://user-images.githubusercontent.com/83976212/117735910-24604d80-b1ff-11eb-80f3-a9b8d2a16b7c.jpg"  width="250" />
 
 
-
 <img src="https://user-images.githubusercontent.com/83976212/117735917-27f3d480-b1ff-11eb-9781-f1c193ceeeae.jpg"  width="250" />
 
 <img src="https://user-images.githubusercontent.com/83976212/117735923-2b875b80-b1ff-11eb-9db1-b152e38f3c49.jpg "  width="250" />
@@ -44,11 +43,7 @@ Uygulama içi ekran görüntüleri.
 
 <img src="https://user-images.githubusercontent.com/83976212/117735937-3215d300-b1ff-11eb-9c77-e1d692c782f5.jpg"  width="250" />
 
-
-
 <img src="https://user-images.githubusercontent.com/83976212/117735954-3c37d180-b1ff-11eb-8ef2-e4b02c84e674.jpg"  width="250" />
-
-
 
 <img src="https://user-images.githubusercontent.com/83976212/117735965-3f32c200-b1ff-11eb-85d9-b63fb0d6d78b.jpg "  width="250" />
 
