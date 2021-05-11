@@ -18,9 +18,28 @@ export class VeritabService {
   aveilable(tarih_bas,tarih_bit,id){
       return this.http.get('https://projehastane.eastus.cloudapp.azure.com/hastanevt/aveilable.php?tarih_bas='+tarih_bas+'&tarih_bit='+tarih_bit+'&id='+id);
       }    
-  register(data){
-    return this.http.post('https://projehastane.eastus.cloudapp.azure.com/hastanevt/register.php',data);
-      }
+  // register(data){
+  //   return this.http.post('https://projehastane.eastus.cloudapp.azure.com/hastanevt/register.php',data);
+  //     }
+      register(tc,isim,soyisim,dogum_tarihi,cinsiyet,tel,mail,sifre){
+        return this.http.get('https://projehastane.eastus.cloudapp.azure.com/hastanevt/register.php?tc='+tc+'&isim='+isim+'&soyisim='+soyisim+'&dogum_tarihi='+dogum_tarihi+'&cinsiyet='+cinsiyet
+        +'&tel='+tel+'&mail='+mail+'&sifre='+sifre);
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   getuser(id,pw){
     return this.http.get('https://projehastane.eastus.cloudapp.azure.com/hastanevt/getuser.php?id='+id+'&pw='+pw);
                 }

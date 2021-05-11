@@ -46,7 +46,7 @@ export class SignUpPage implements OnInit {
 
   //sign-up 1. sayfa kontrolleri icin
     form : FormGroup;
-    data:any;
+    data1:any;
 
     validator(){
       this.form = new FormGroup({
@@ -194,7 +194,8 @@ export class SignUpPage implements OnInit {
       else
       {
         console.log("Bilgiler veritab gonderılıyor");
-        this.data=this.form.getRawValue();//Sign-up page den gelen datalar
+         this.data1=this.form.getRawValue();//Sign-up page den gelen datalar
+         console.log("yeni "+this.data1.value);
         this.deneme = moment(this.tarih.value).format('YYYY-MM-DD');//yıl gun ay a cevirdik
         // let pw = CryptoJS.SHA256(this.password1.value).toString(CryptoJS.enc.Hex); //gelen sifreyi sha256 ile hashledik
       
@@ -214,8 +215,11 @@ export class SignUpPage implements OnInit {
         
         console.log('giden dizi:'+data.tc,data.tel,data.soyisim,data.sifre,data.mail,data.isim,data.dogum_tarihi,data.cinsiyet);
 
-       
-        this.veritab.register(data).subscribe((res:any)=>{
+        // this.veritab.register(data).subscribe((res:any)=>{
+        //   console.log("Basarılı===",res);
+        //  this.loading();
+      //  tc,isim,soyisim,dogum_tarihi,cinsiyet,tel,mail,sifre
+        this.veritab.register(data.tc,data.isim,data.soyisim,data.dogum_tarihi,data.cinsiyet,data.tel,data.mail,data.sifre).subscribe((res:any)=>{
          console.log("Basarılı===",res);
         this.loading();
  
@@ -223,15 +227,8 @@ export class SignUpPage implements OnInit {
        },(error:any)=>
        {
          console.log("Hata geldi===",error);
+         console.log("Giris basarısız");
        })
-
-
-
-
-
-
-        
-        console.log("Giris basarısız");
       }
    
       },(error:any)=>
