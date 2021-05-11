@@ -30,6 +30,10 @@ Başlangıç ekranı (Splash screen)  (https://lottiefiles.com/57253-medical-ion
 iconlar (https://www.flaticon.com/)
 </p>
 
+<br>
+
+onay uyarısı  (confirmation alert) (https://codepen.io/takuya-takaku/pen/BaNzvgo)
+
 Uygulama içi ekran görüntüleri..
 
 
