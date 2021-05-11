@@ -22,6 +22,10 @@ ionic cordova plugin add cordova-plugin-lottie-splashscreen
 npm install @ionic-native/lottie-splash-screen
 
 
+Giriş paneli tasarımı (Login Page) (https://www.positronx.io/create-ionic-login-sign-up-ui-with-angular/)
+Başlangıç ekranı (Splash screen)  (https://lottiefiles.com/57253-medical-ions-03)
+iconlar (https://www.flaticon.com/)
+
 
 Uygulama içi ekran görüntüleri.
 
