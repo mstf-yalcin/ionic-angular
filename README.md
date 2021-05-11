@@ -24,11 +24,13 @@ npm install @ionic-native/lottie-splash-screen
 
 <p float="left">
 Giriş paneli tasarımı (Login Page) (https://www.positronx.io/create-ionic-login-sign-up-ui-with-angular/)
+  <br>
 Başlangıç ekranı (Splash screen)  (https://lottiefiles.com/57253-medical-ions-03)
+    <br>
 iconlar (https://www.flaticon.com/)
 </p>
 
-Uygulama içi ekran görüntüleri.
+Uygulama içi ekran görüntüleri..
 
 
 
