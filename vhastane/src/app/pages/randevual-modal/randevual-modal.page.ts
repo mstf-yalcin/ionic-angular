@@ -497,10 +497,14 @@ randevu_veritab(gun,saat)
 
   this.veritab.setappointment(this.gidecek_gun,this.doktor_id,this.tc_no,this.hastane_kod,this.gidecek_saat,this.onay,this.poliklinik_id).subscribe((res:any)=>{
     console.log("Basarılı===",res);
+    this.loading();
+
     
     
   },(error:any)=>
   {
+
+    this.hata_alert();
     console.log("Hata geldi===",error);
   })
 
@@ -543,7 +547,6 @@ async randevu_uyari(randevugun,randevusaat,bolum,doktor,hastane) {
           this.gidecek_saat=randevusaat;
           this.randevu_veritab(randevugun,randevusaat);
           //veri tabanına randevu gonderilecek
-          this.loading();
         }
       }
     ]
@@ -600,6 +603,16 @@ async randevu_onay() {
 
 
 
+    async hata_alert() {
+      const alert = await this.alertController.create({
+        cssClass: 'my-custom-class',
+        header: 'HATA',
+        message: 'Randevu alınamadı.Lütfen daha sonra tekrar deneyiniz..',
+        buttons: ['TAMAM']
+      });
+      await alert.present(); 
+
+    }
 
 
 
