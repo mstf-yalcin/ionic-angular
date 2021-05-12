@@ -29,11 +29,11 @@ npm install @ionic-native/lottie-splash-screen
 cordova plugin add cordova-plugin-androidx
 <br>
 
-dosya_ismi\platforms\android\app\src\main\java\com\ionicframework\cordova\webview\IonicWebViewEngine.java
+dosya_ismi\platforms\android\app\src\main\java\com\ionicframework\cordova\webview\IonicWebViewEngine.java dosya yolundaki
 <br>
-// import android.support.annotation.RequiresApi; yorum satırı yapılıp
+// import android.support.annotation.RequiresApi; satır yorum satırı yapılıp
 <br>
-import androidx.annotation.RequiresApi;   eklenmeli
+import androidx.annotation.RequiresApi;  eklenmeli
 <br>
 
 <p float="left">
