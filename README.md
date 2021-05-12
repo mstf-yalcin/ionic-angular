@@ -9,18 +9,32 @@ ionic start "dosya_ismi"
 ionic cordova platform add android
 
 Kurulacak eklentiler.
-
+<br>
 npm install crypto-js --save
+<br>
 npm i ion2-calendar
-
-
+<br>
+<br>
 ionic cordova plugin add cordova-plugin-statusbar
+<br>
 npm install @ionic-native/status-bar
-
+<br>
+<br>
 
 ionic cordova plugin add cordova-plugin-lottie-splashscreen
+<br>
 npm install @ionic-native/lottie-splash-screen
+<br><br>
 
+cordova plugin add cordova-plugin-androidx
+<br>
+
+dosya_ismi\platforms\android\app\src\main\java\com\ionicframework\cordova\webview\IonicWebViewEngine.java
+<br>
+// import android.support.annotation.RequiresApi; yorum satırı yapılıp
+<br>
+import androidx.annotation.RequiresApi;   eklenmeli
+<br>
 
 <p float="left">
 Giriş paneli tasarımı (Login Page) (https://www.positronx.io/create-ionic-login-sign-up-ui-with-angular/)
