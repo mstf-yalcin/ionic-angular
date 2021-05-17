@@ -65,6 +65,9 @@ Uygulama içi ekran görüntüleri..
 
 <img src="https://user-images.githubusercontent.com/83976212/117735937-3215d300-b1ff-11eb-9c77-e1d692c782f5.jpg"  width="250" />
 
+<img src="https://user-images.githubusercontent.com/83976212/118522238-814e8d00-b744-11eb-92fa-d65e692aac2a.jpg"  width="250" />
+
+
 <img src="https://user-images.githubusercontent.com/83976212/117735954-3c37d180-b1ff-11eb-8ef2-e4b02c84e674.jpg"  width="250" />
 
 <img src="https://user-images.githubusercontent.com/83976212/117735965-3f32c200-b1ff-11eb-85d9-b63fb0d6d78b.jpg "  width="250" />
